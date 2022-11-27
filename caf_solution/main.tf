@@ -3,8 +3,8 @@ terraform {
     // azurerm version driven by the caf module
     // azuread version driven by the caf module
     random = {
+      version = "~> 3.3.1"
       source  = "hashicorp/random"
-      version = "~> 3.3.0"
     }
     external = {
       source  = "hashicorp/external"
@@ -23,7 +23,7 @@ terraform {
       version = "~> 1.2.0"
     }
   }
-  required_version = ">= 0.15"
+  required_version = ">= 1.1.0"
 }
 
 provider "azuread" {

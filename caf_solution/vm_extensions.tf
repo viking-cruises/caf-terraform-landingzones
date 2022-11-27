@@ -1,7 +1,7 @@
 #
 # microsoft_enterprise_cloud_monitoring - Install the monitoring agent in the virtual machine
 #
-
+/*
 module "vm_extension_monitoring_agent" {
   # source  = "aztfmod/caf/azurerm//modules/compute/virtual_machine_extensions"
   # version = "5.5.5"
@@ -112,3 +112,4 @@ module "vm_extension_custom_scriptextension" {
   managed_identities      = merge(tomap({ (var.landingzone.key) = module.solution.managed_identities }), try(local.remote.managed_identities, {}))
   storage_accounts        = merge(tomap({ (var.landingzone.key) = module.solution.storage_accounts }), try(local.remote.storage_accounts, {}))
 }
+*/
