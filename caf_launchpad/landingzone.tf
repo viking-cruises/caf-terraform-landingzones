@@ -5,7 +5,7 @@ module "launchpad" {
   # source = "git::https://github.com/aztfmod/terraform-azurerm-caf.git?ref=main"
 
   providers = {
-    azurerm.vhub = azurerm.vhub
+    azurerm.vhub = "3.116.0"
   }
 
   current_landingzone_key               = var.landingzone.key
