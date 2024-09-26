@@ -1,11 +1,11 @@
 module "launchpad" {
-  source = "git::https://github.com/viking-cruises/terraform-azurerm-caf.git?ref=vrc-2024.09.24"
-  #source  = "aztfmod/caf/azurerm"
-  #version = "5.7.11"
-  # source = "git::https://github.com/aztfmod/terraform-azurerm-caf.git?ref=main"
+  #source = "git::https://github.com/viking-cruises/terraform-azurerm-caf.git?ref=vrc-2024.09.24"
+  source  = "aztfmod/caf/azurerm"
+  version = "5.7.13"
+  #source = "git::https://github.com/aztfmod/terraform-azurerm-caf.git?ref=main"
 
   providers = {
-    azurerm.vhub = azurerm.vhub
+    azurerm.vhub =  azurerm.vhub
   }
 
   current_landingzone_key               = var.landingzone.key
