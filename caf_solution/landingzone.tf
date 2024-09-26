@@ -1,7 +1,8 @@
 module "solution" {
-  source  = "aztfmod/caf/azurerm"
-  version = "5.7.11"
-  # source = "git::https://github.com/aztfmod/terraform-azurerm-caf.git?ref=main"
+  source = "git::https://github.com/viking-cruises/terraform-azurerm-caf.git?ref=vrc-2024.09.26"
+  #source  = "aztfmod/caf/azurerm"
+  #version = "5.7.11"
+  #source = "git::https://github.com/aztfmod/terraform-azurerm-caf.git?ref=main"
 
   providers = {
     azurerm.vhub = azurerm.vhub
