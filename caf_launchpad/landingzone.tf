@@ -1,5 +1,5 @@
 module "launchpad" {
-  source = "git::https://github.com/viking-cruises/terraform-azurerm-caf?ref=vrc-2025-17-21"
+  source = "git::https://github.com/viking-cruises/terraform-azurerm-caf?ref=vrc-2025.17.21"
   #source  = "aztfmod/caf/azurerm"
   #version = "5.7.6"
 
