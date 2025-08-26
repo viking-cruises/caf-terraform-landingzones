@@ -1,7 +1,7 @@
 module "launchpad" {
-  source = "git::https://github.com/viking-cruises/terraform-azurerm-caf?ref=vrc-2025.07.21"
+  source = "git::https://github.com/viking-cruises/terraform-azurerm-caf?ref=vrc-2025.08.28"
   #source  = "aztfmod/caf/azurerm"
-  #version = "5.7.6"
+  #version = "5.7.11"
 
   providers = {
     azurerm.vhub = azurerm.vhub

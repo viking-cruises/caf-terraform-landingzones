@@ -2,16 +2,16 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 2.55.0"
+      version = "~> 3.85.0"
     }
     kubernetes = {
       source  = "hashicorp/kubernetes"
-      version = "~> 2.0.2"
+      version = "~> 2.25.0"
     }
     kustomization = {
       source  = "kbst/kustomization"
       version = ">= 0.5.0"
     }
   }
-  required_version = ">= 1.3.5"
+  required_version = ">= 1.5.0"
 }

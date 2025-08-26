@@ -2,22 +2,22 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 2.99.0"
+      version = "~> 3.85.0"
     }
     kubernetes = {
       source  = "hashicorp/kubernetes"
-      version = "~> 2.19.0"
+      version = "~> 2.25.0"
     }
     helm = {
       source  = "hashicorp/helm"
-      version = "~> 2.9.0"
+      version = "~> 2.12.0"
     }
     azurecaf = {
       source  = "aztfmod/azurecaf"
-      version = "~> 1.2.24"
+      version = "~> 1.2.0"
     }
   }
-  required_version = ">= 1.3.5"
+  required_version = ">= 1.5.0"
 }
 
 data "azurerm_client_config" "current" {}

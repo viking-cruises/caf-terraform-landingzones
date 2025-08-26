@@ -2,30 +2,30 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 2.81"
+      version = "~> 3.85.0"
     }
     azuread = {
       source  = "hashicorp/azuread"
-      version = "~> 1.0.0"
+      version = "~> 2.47.0"
     }
     random = {
       source  = "hashicorp/random"
-      version = "~> 2.2.1"
+      version = "~> 3.6.0"
     }
     null = {
       source  = "hashicorp/null"
-      version = "~> 2.1.0"
+      version = "~> 3.2.0"
     }
     external = {
       source  = "hashicorp/external"
-      version = "~> 1.2.0"
+      version = "~> 2.3.0"
     }
     tfe = {
       source  = "hashicorp/tfe"
-      version = "~> 0.26.1"
+      version = "~> 1.0.0"
     }
   }
-  required_version = ">= 1.3.5"
+  required_version = ">= 1.5.0"
 }
 
 provider "azurerm" {
