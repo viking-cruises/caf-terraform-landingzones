@@ -6,7 +6,6 @@ module "launchpad" {
 
   providers = {
     azurerm.vhub = azurerm.vhub
-    skip_provider_registration = "true"
   }
 
   current_landingzone_key               = var.landingzone.key
