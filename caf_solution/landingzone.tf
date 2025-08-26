@@ -1,5 +1,5 @@
 module "solution" {
-  source = "git::https://github.com/viking-cruises/terraform-azurerm-caf.git?ref=vrc-2025.07.21"
+  source = "git::https://github.com/viking-cruises/terraform-azurerm-caf.git?ref=vrc-2025.08.28"
   #source  = "aztfmod/caf/azurerm"
   #version = "5.7.11"
   #source = "git::https://github.com/aztfmod/terraform-azurerm-caf.git?ref=main"
